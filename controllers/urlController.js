@@ -3,7 +3,7 @@ const Url = require("../models/urlModel");
 
 const generateShortUrl = async (req, res) => {
   // const baseUrl = "https://new-url-shortener.netlify.app";
-  const baseUrl = "https://url-shortener-317p.onrender.com";
+  const baseUrl = "https://url-shortener-livid-six.vercel.app/url";
   try {
     //    Destructuring longurl from body
     let { longURL } = req.body;
